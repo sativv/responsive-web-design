@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto; 
-    max-width: 1440px;
+    width: 100%;
 }
   
 
@@ -19,6 +19,7 @@ body {
     max-width: 472px;
     width: 100%;
     min-height: 36px;
+    margin: auto;
    
 
     color: #242635;
@@ -46,8 +47,13 @@ body {
 .paragraphs {
     max-width: 416px;
     width: 100%;
+    align-self: center;
 }
-
+.midpage {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
 .large-text {
     font-family: 'Poppins';
     font-style: normal;
@@ -61,6 +67,10 @@ body {
 
     color: #242635;
 }
+
+   
+
+
 
 .small-text {
     font-family: 'Source Sans Pro';
@@ -87,7 +97,11 @@ body {
         width: 100%;
         min-height: 172px;
         text-align: center;
-        margin-top: 225px;
+        margin-top: 50px;
+    }
+
+    .small-text {
+        min-height: 66px;
     }
 
     .large-text {
@@ -98,9 +112,15 @@ body {
         flex-direction: column;
     }
     
+    
 
     .navig {
         margin-top: 34px;
+    }
+
+    .img-soup {
+        width: 617px;
+        height: 512px;
     }
 }
 
@@ -108,8 +128,32 @@ body {
 
 @media screen and (max-width:320px) {
     
-    .paragraphs
+    .paragraphs {
+        max-width: 211px;
+        width: 100%;
+        min-height: 104px;
+        margin-top: 102px;
+    }
+
+    .small-text {
+        max-width: 211px;
+        width: 100%;
+        min-height: 49px;
+        font-size: 12px;
+    }
+
+    .large-text {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
     
+    .img-soup {
+        width: 256px;
+        height: 284px;
+    }
+    .navlist {
+
+    }
 }
 
 
