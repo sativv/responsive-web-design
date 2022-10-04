@@ -55,6 +55,7 @@ body {
     font-size: 90px;
     line-height: 102px;
     /* identical to box height, or 113% */
+    margin-bottom: 45px;
 
     letter-spacing: -2px;
 
@@ -79,13 +80,35 @@ body {
 }
 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:900px) 
+{
+    .paragraphs {
+        max-width: 574px;
+        width: 100%;
+        min-height: 172px;
+        text-align: center;
+        margin-top: 225px;
+    }
+
+    .large-text {
+        font-size: 72px;
+    }
+
+    .textimg-midpage {
+        flex-direction: column;
+    }
     
+
+    .navig {
+        margin-top: 34px;
+    }
 }
 
 
 
 @media screen and (max-width:320px) {
+    
+    .paragraphs
     
 }
 
