@@ -1,0 +1,93 @@
+body {
+    
+    display: flex;
+    flex-direction: column;
+    margin: auto; 
+    max-width: 1440px;
+}
+  
+
+.navig {
+    display: block;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 140% */
+    margin-top: 62px;
+    max-width: 472px;
+    width: 100%;
+    min-height: 36px;
+   
+
+    color: #242635;
+}
+
+.navlist {
+    list-style: none;
+    padding: 0;
+}
+
+.navlist a {
+    text-decoration: none;
+    color: #242635;
+}
+
+.logo {
+    float: left;
+}
+
+.navright {
+    float: right;
+    margin-left: 29px;
+}
+
+.paragraphs {
+    max-width: 416px;
+    width: 100%;
+}
+
+.large-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 102px;
+    /* identical to box height, or 113% */
+
+    letter-spacing: -2px;
+
+    color: #242635;
+}
+
+.small-text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    /* or 150% */
+
+
+    color: #242635;
+}
+
+.textimg-midpage {
+    display:flex;
+    justify-content:space-between;
+}
+
+
+@media screen and (max-width:900px) {
+    
+}
+
+
+
+@media screen and (max-width:320px) {
+    
+}
+
+
+
