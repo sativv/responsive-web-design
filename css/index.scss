@@ -27,6 +27,10 @@ body {
     color: #242635;
 }
 
+
+.dots {
+    display: none;
+}
 .navlist {
     list-style: none;
     padding: 0;
@@ -168,10 +172,15 @@ body {
     }
     .navig {
         margin-left: 30px;
+    }
 
-
+    .dots {
+        display: block;
+        float: right;
+        margin-right: 50px;
     }
 
     .navright {
         display: none;
     }
+}   
